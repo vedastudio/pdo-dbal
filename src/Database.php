@@ -7,7 +7,7 @@ use PDO;
 use PDOException;
 use PDOStatement;
 
-class PdoDbal implements DBInterface
+class Database implements DBInterface
 {
     private PDO $pdo;
     private PDOStatement $pdoStatement;
