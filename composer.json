@@ -1,0 +1,31 @@
+{
+  "name": "vedastudio/pdo-dbal",
+  "description": "A simple and secure PDO Database Abstraction Layer",
+  "keywords": [
+    "PDO",
+    "database",
+    "db",
+    "DBAL",
+    "wrapper",
+    "abstraction-layer",
+    "pdo-dbal",
+    "mysql",
+    "PHP"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vedastudio/pdo-dbal",
+  "authors": [
+    {
+      "name": "Vitaliy Olos",
+      "email": "vedastudio@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PdoDbal\\": "src/"
+    }
+  }
+}
